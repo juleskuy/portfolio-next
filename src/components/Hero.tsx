@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
 import { Github, Linkedin, Instagram, Mail } from "lucide-react";
+import { DiscordIcon } from "./Icons";
 import { useState } from "react";
 import { generateResumePDF } from "@/lib/resume-generator";
 
@@ -29,7 +30,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="text-4xl md:text-7xl font-bold mb-4 tracking-tight"
+                className="text-3xl sm:text-4xl md:text-7xl font-bold mb-4 tracking-tight"
             >
                 {portfolioData.name}
             </motion.h1>
@@ -38,7 +39,7 @@ export default function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.4 }}
-                className="text-xl md:text-2xl text-gradient-ice font-medium mb-8"
+                className="text-lg md:text-2xl text-gradient-ice font-medium mb-8"
             >
                 {portfolioData.title}
             </motion.p>
@@ -53,6 +54,7 @@ export default function Hero() {
                     { icon: Github, href: portfolioData.github },
                     { icon: Linkedin, href: portfolioData.linkedin },
                     { icon: Instagram, href: portfolioData.instagram },
+                    { icon: DiscordIcon, href: portfolioData.discord },
                     { icon: Mail, href: `mailto:${portfolioData.email}` },
                 ].map((social, i) => (
                     <a

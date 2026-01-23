@@ -5,8 +5,8 @@ import { portfolioData } from "@/data/portfolio";
 
 export default function Experience() {
     return (
-        <section id="experience" className="py-24 px-4 max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center text-accent-ice">Work Experience</h2>
+        <section id="experience" className="py-20 md:py-24 px-4 max-w-4xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center text-accent-ice">Work Experience</h2>
 
             <div className="space-y-8">
                 {portfolioData.experience.map((exp, i) => (

@@ -8,6 +8,7 @@ export const portfolioData = {
     github: "https://github.com/juleskuy",
     linkedin: "https://www.linkedin.com/in/juleskuy",
     instagram: "https://www.instagram.com/zulfann22/",
+    discord: "https://discord.com/users/344847173386502149",
     website: "https://juleskuy.netlify.app",
     skills: {
         frontend: ["JavaScript (ES6+)", "TypeScript", "React", "Next.js", "HTML5/CSS3", "Bootstrap", "Tailwind CSS"],

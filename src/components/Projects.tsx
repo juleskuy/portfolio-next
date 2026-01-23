@@ -6,7 +6,7 @@ import { ExternalLink, Github } from "lucide-react";
 
 export default function Projects() {
     return (
-        <section id="projects" className="py-24 px-4 max-w-6xl mx-auto">
+        <section id="projects" className="py-20 md:py-24 px-4 max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-4 text-center text-accent-ice">Featured Projects</h2>
             <p className="text-text-muted text-center mb-16">Selected works that define my coding journey</p>
 
