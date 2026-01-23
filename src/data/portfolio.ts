@@ -137,6 +137,6 @@ export const portfolioData = {
         clients: 8,
         projects: 35,
         support: "24/7",
-        workers: 5,
+
     }
 };
